@@ -72,7 +72,7 @@ function createRecipeCards() {
 
   // Part 1 Expose - TODO
   var main = document.querySelector('main');
-  for(let i = 0; i < recipes.length; i++){
+  for(let i = 0; i < 3; i++){
     var recipeCard = document.createElement('recipe-card');
     recipeCard.data = recipeData[recipes[i]];
     main.append(recipeCard);
@@ -91,19 +91,19 @@ function bindShowMore() {
   var button = document.querySelector('button');
   var main = document.querySelector('main');
   button.addEventListener('click', (event) => {
-    if (button.innerText == 'Show More'){ 
+    if (button.innerText == 'Show more'){ 
       for(let i = 3; i < recipes.length; i++){
         var recipeCard = document.createElement('recipe-card');
         recipeCard.data = recipeData[recipes[i]];
         main.append(recipeCard);
     }
-    button.innerText = 'Show Less';
+      button.innerText = 'Show less';
     }
     else{
       for(let i = 3; i < recipes.length; i++){
         main.removeChild(main.lastChild);
       }
-      button.innerText = 'Show More';
+      button.innerText = 'Show more';
     }
   })
 }
