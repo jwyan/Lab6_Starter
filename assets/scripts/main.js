@@ -6,9 +6,9 @@ const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
-  //'assets/recipes/applesauce-muffin.json',
-  //'assets/recipes/deviled-eggs.json',
-  //'assets/recipes/tuna-melt.json'
+  './assets/recipes/applesauce-muffins.json',
+  './assets/recipes/deviled-eggs.json',
+  './assets/recipes/tuna-melt.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -47,7 +47,7 @@ async function fetchRecipes() {
 
     // Part 1 Expose - TODO
 
-    for(let i = 0; i < 3; i++){ 
+    for(let i = 0; i < recipes.length; i++){ 
       fetch(recipes[i])
       .then(response => response.json())
       .then(data => { 
@@ -88,23 +88,22 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
-  //var button = document.querySelector('button');
-  //button.addEventListener('click', (event) => {
-    //if (button.innerText == "Show More"){ 
-      //for(let i = 3; i < recipes.length; i++){
-        //var recipeCard = document.createElement('recipe-card');
-        //recipeCard.data = recipeData[recipes[i]];
-       // main.append(recipeCard);
-     // }
-      //button.innerText = "Show Less";
-    //}
-    //else{
-      //var main = document.querySelector('main');
-      //for(let i = 3; i < recipes.length; i++){
-        //main.removeChild(main.lastChild);
-      //}
-      //button.innerText = "Show More";
-      
-    //}
-  //})
+  var button = document.querySelector('button');
+  var main = document.querySelector('main');
+  button.addEventListener('click', (event) => {
+    if (button.innerText == 'Show More'){ 
+      for(let i = 3; i < recipes.length; i++){
+        var recipeCard = document.createElement('recipe-card');
+        recipeCard.data = recipeData[recipes[i]];
+        main.append(recipeCard);
+    }
+    button.innerText = 'Show Less';
+    }
+    else{
+      for(let i = 3; i < recipes.length; i++){
+        main.removeChild(main.lastChild);
+      }
+      button.innerText = 'Show More';
+    }
+  })
 }
