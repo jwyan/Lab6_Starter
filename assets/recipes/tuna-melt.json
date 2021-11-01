@@ -1,0 +1,421 @@
+{
+    "@graph":[
+       {
+          "@type":"Question",
+          "text":"Which do you usually buy?",
+          "suggestedAnswer":[
+             {
+                "@type":"Answer",
+                "text":"Tuna packed in oil."
+             },
+             {
+                "@type":"Answer",
+                "text":"Tuna packed in water."
+             }
+          ]
+       }
+    ],
+    "@context":"http://schema.org",
+    "url":"https://www.delish.com/cooking/recipe-ideas/a26146096/tuna-melt-recipe/",
+    "publisher":{
+       "@type":"Organization",
+       "name":"Delish",
+       "logo":{
+          "@type":"ImageObject",
+          "url":"https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+          "width":219,
+          "height":60
+       }
+    },
+    "@type":"Recipe",
+    "author":{
+       "name":"Lena Abraham",
+       "@type":"Person"
+    },
+    "datePublished":"2019-02-15T23:03:06.074517Z",
+    "headline":"Best-Ever Tuna Melt",
+    "image":{
+       "@type":"ImageObject",
+       "height":567,
+       "thumbnail":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tuna-melt-095-1550261085.jpg?crop=0.510xw:0.762xh;0.167xw,0.0938xh&resize=100:*",
+       "url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tuna-melt-095-1550261085.jpg",
+       "width":850
+    },
+    "mainEntityOfPage":{
+       "@id":"https://www.delish.com/cooking/recipe-ideas/a26146096/tuna-melt-recipe/",
+       "@type":"WebPage"
+    },
+    "thumbnailUrl":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tuna-melt-095-1550261085.jpg?crop=0.510xw:0.762xh;0.167xw,0.0938xh&resize=100:*",
+    "dateModified":"2019-02-25T16:56:00Z",
+    "isAccessibleForFree":"False",
+    "hasPart":[
+       {
+          "@type":"WebPageElement",
+          "isAccessibleForFree":"False",
+          "cssSelector":".content-container"
+       }
+    ],
+    "name":"Best-Ever Tuna Melt",
+    "prepTime":"PT15M",
+    "cookTime":"PT0S",
+    "totalTime":"PT30M",
+    "recipeIngredient":[
+       "1/3 c. <p>mayonnaise</p>",
+       "<p>Juice of 1/2 lemon</p>",
+       "1/2 tsp. <p>crushed red pepper flakes (optional)</p>",
+       "2 <p>(6-oz.) cans tuna</p>",
+       "1 <p>ribs celery, finely chopped</p>",
+       "2 <p>dill pickles, finely chopped</p>",
+       "1/4 c. <p>finely chopped&nbsp;red onion</p>",
+       "2 tbsp. <p>freshly chopped parsley</p>",
+       "<p>Kosher salt</p>",
+       "<p>Freshly ground black pepper</p>",
+       "8 <p>slices bread, such as sourdough</p>",
+       "2 tbsp. <p>butter</p>",
+       "1 <p>tomato, sliced</p>",
+       "8 <p>slices cheddar</p>"
+    ],
+    "recipeInstructions":"Preheat oven to 400\u00b0. In a large bowl, whisk together mayonnaise, lemon juice, and red pepper flakes (if using). Drain tuna then add to mayonnaise mixture. Use a fork to break up tuna into flakes. Add celery, pickles, red onion, and parsley and toss to combine. Season with salt and pepper. Butter one side of each bread&nbsp;slice. Top an unbuttered side with approximately 1/2 cup of&nbsp;tuna salad, 2 to 3 slices tomato, and 2 slices of cheese. Top with another slice of bread, buttered side facing up. Repeat with remaining ingredients and place on a large baking sheet. Bake until cheese is melty, 5 to 8 minutes.",
+    "video":{
+       "@type":"VideoObject",
+       "contentUrl":"https://streaming.hearstdigitalstudios.com/8b44600f-3896-4d3a-b287-f4ddbc51b4ce/video_rover_16x9_1080p_hd_1551113665_69473.mp4",
+       "description":"WAY better than your local diner's version!",
+       "duration":"PT1M",
+       "embedUrl":"https://glimmer.hearstapps.com/?id=d08cce84-f403-4345-8669-5fc5f60538eb",
+       "name":"This Tuna Melt Is What We Crave When We Need Comfort Food",
+       "thumbnailUrl":"https://hips.hearstapps.com/hmg-prod/images/tuna-melt-095-1550261055.jpg",
+       "uploadDate":"2019-02-25T16:54:09.145150Z"
+    },
+    "recipeCuisine":[
+       "American"
+    ],
+    "aggregateRating":{
+       "@context":"http://schema.org/",
+       "@type":"AggregateRating",
+       "ratingValue":4.714286,
+       "reviewCount":28,
+       "worstRating":1,
+       "bestRating":5
+    },
+    "review":[
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-03-27",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"RedBike"
+          },
+          "reviewBody":"Great recipe, but the bread did not toast or even get brown in the oven. After 10 minutes, I took it out and fried it on the stove.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":4,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-04-18",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"GoldGrapes"
+          },
+          "reviewBody":"I never liked tuna melts until I tried this recipe! WOW it was phenomenal. one of the best sandwiches I've had in a long time. Will <strong>definitely</strong> be making this again, and soon!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-05-14",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"BlueClover"
+          },
+          "reviewBody":"I must admit that I was a bit wary of adding pickles and lemon juice (as well as pepper) into a tuna melt, but I thought I would try it once.  I did and I am very happy that I did.  It was delicious and I won't go back.\n\nThanks!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-04-16",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"PurpleChefHat"
+          },
+          "reviewBody":"This is wonderful!! I cheat by using dill relish and freeze dried chopped red onions. As someone else has noted - be sure to preheat the pan in the oven if you want your bread nice and brown. Better yet - flip it halfway through. YUM!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-09-07",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"Lexi "
+          },
+          "reviewBody":"Delicious! I didn\u2019t have celery so I used cucumber for the crunch. Muenster cheese instead of cheddar. \nThe lemon juice really brightened this up! I\u2019ll eat tuna any way but this really elevated it \u2764\ufe0f\u2764\ufe0f",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-08-13",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"intoner1"
+          },
+          "reviewBody":"ive never had a tuna melt before but i decided to make one since it\u2019s all foods i like. it was really good! i added a pickle spear but followed the rest of the recipe as written. will definitely make this again tomorrow.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-07-20",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"Diannakin"
+          },
+          "reviewBody":"This is the first tuna melt I\u2019ve eaten and it\u2019s super delicious! Just try the recipe. I use potato rolls for my bread and it is quite delightful.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-10-26",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"ohkayitsmaria"
+          },
+          "reviewBody":"I totally recommend this recipe, wow! I found the sandwich toasts and melts much better if you only broil it and flip to after a minute or so, depending on your oven. I have a gas oven and I broiled the sandwich for 1 1/2 mins on each side. So yum!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-05-02",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"BlueLamp"
+          },
+          "reviewBody":"The overall recipe was great, but the tuna was way too acidic. Between the lemon juice, pickles, and red pepper flakes, it was too much. I would definitely make it again, but with a different recipe for the tuna.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":2,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-04-08",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"OliveMustache"
+          },
+          "reviewBody":"this is the best ever tuna melt! i added a little bit more lemon juice for some more acid but this was such a great recipe!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2021-03-05",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"skn9053"
+          },
+          "reviewBody":"Excellent!  My husband asked that next time I make it, I replace the dill pickle with sweet.  Either way, this is awesome!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-05-29",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"BlueCocktail"
+          },
+          "reviewBody":"This is hands down, the absolute best tuna sandwich I have ever made and eaten. Genius!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-06-27",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"PurpleCupcake"
+          },
+          "reviewBody":"this was good but just tasted like a warm sandwich .I could do this and get the same taste in alot less time.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":3,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-01-18",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"PurpleScissors"
+          },
+          "reviewBody":"Loved it add garlic baked in toaster oven",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-04-24",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"OliveBowtie"
+          },
+          "reviewBody":"The celery, pickle and onion hook this melt up with the perfect amount of crunch. Loved the addition of red pepper flakes which added a nice \nlittle kick. All in all this is one sexy sexy sandwich.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2020-01-06",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"GoldTree"
+          },
+          "reviewBody":"Easy, cheap and tasty! Highly recommended!!",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Review",
+          "datePublished":"2019-02-22",
+          "author":{
+             "@context":"http://schema.org/",
+             "@type":"Person",
+             "name":"  Gold  Quill"
+          },
+          "reviewBody":"Delish! \ud83d\ude09 I made it my own a by adjusting just a tad. I did a little more tuna and a little less mayo. Didn\u2019t use red pepper flakes. I also removed the seeds from the pickles and used 3 spears. After the 5 min baking, I broiled on each side to toast the bread a bit.",
+          "reviewRating":{
+             "@context":"http://schema.org/",
+             "@type":"Rating",
+             "ratingValue":5,
+             "worstRating":1,
+             "bestRating":5
+          }
+       }
+    ],
+    "recipeCategory":[
+       "low sugar",
+       "nut-free",
+       "30-minute meals",
+       "Sunday lunch",
+       "weeknight meals",
+       "dinner",
+       "fish",
+       "lunch"
+    ],
+    "recipeYield":"4",
+    "description":"This Tuna Melt from Delish.com goes out to all the canned-fish lovers.",
+    "keywords":"Tuna Melt, best Tuna Melt, easy Tuna Melt, homemade Tuna Melt, Tuna Melt recipe, how to make Tuna Melt, classic Tuna Melt"
+ }

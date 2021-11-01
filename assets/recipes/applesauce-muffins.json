@@ -1,0 +1,84 @@
+{
+    "@graph":[
+       {
+          "@type":"Question",
+          "text":"Have you ever baked with buckwheat flour?",
+          "suggestedAnswer":[
+             {
+                "@type":"Answer",
+                "text":"Yep! So good."
+             },
+             {
+                "@type":"Answer",
+                "text":"Nope! My first time."
+             }
+          ]
+       }
+    ],
+    "@context":"http://schema.org",
+    "url":"https://www.delish.com/cooking/a37533325/easy-applesauce-muffins-recipe/",
+    "publisher":{
+       "@type":"Organization",
+       "name":"Delish",
+       "logo":{
+          "@type":"ImageObject",
+          "url":"https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+          "width":219,
+          "height":60
+       }
+    },
+    "@type":"Recipe",
+    "datePublished":"2021-10-12T19:11:23.931075Z",
+    "headline":"Easy Applesauce Muffins",
+    "image":{
+       "@type":"ImageObject",
+       "height":1365,
+       "thumbnail":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-apple-sauce-muffins-093021-01-jg-1634049732.jpg?crop=0.668xw:1.00xh;0.109xw,0&resize=100:*",
+       "url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-apple-sauce-muffins-093021-01-jg-1634049732.jpg",
+       "width":2048
+    },
+    "mainEntityOfPage":{
+       "@id":"https://www.delish.com/cooking/a37533325/easy-applesauce-muffins-recipe/",
+       "@type":"WebPage"
+    },
+    "thumbnailUrl":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-apple-sauce-muffins-093021-01-jg-1634049732.jpg?crop=0.668xw:1.00xh;0.109xw,0&resize=100:*",
+    "isAccessibleForFree":"False",
+    "hasPart":[
+       {
+          "@type":"WebPageElement",
+          "isAccessibleForFree":"False",
+          "cssSelector":".content-container"
+       }
+    ],
+    "name":"Easy Applesauce Muffins",
+    "prepTime":"PT10M",
+    "cookTime":"PT20M",
+    "totalTime":"PT30M",
+    "recipeIngredient":[
+       "1 1/2 c. <p>all-purpose flour</p>",
+       "1/2 c. <p>buckwheat flour</p>",
+       "1 1/2 tsp. <p>baking soda</p>",
+       "1/4 tsp. <p>kosher salt</p>",
+       "1 tsp. <p>ground cinnamon, divided</p>",
+       "1/4 tsp. <p>freshly grated nutmeg</p>",
+       "1/2 c. <p>(1 stick) unsalted butter, melted</p>",
+       "1/2 c. <p>light brown sugar</p>",
+       "1/2 c. <p>plus 3 Tbsp. granulated sugar</p>",
+       "1 tsp. <p>pure vanilla extract</p>",
+       "1 c. <p>unsweetened applesauce&nbsp;&nbsp;</p>",
+       "1 <p>large egg&nbsp;</p>"
+    ],
+    "recipeInstructions":"In a medium bowl, sift together both flours, baking soda, salt, \u00bd teaspoon cinnamon, and nutmeg. Whisk to combine.&nbsp; In a large bowl, whisk together melted butter, light brown sugar, \u00bd cup granulated sugar, vanilla, applesauce, and the egg.&nbsp;Add the dry ingredients to the wet ingredients in two additions, stirring until just combined.&nbsp; In a small bowl, combine remaining 3 tablespoons granulated sugar and remaining \u00bd teaspoon cinnamon. Coat cups of muffin tins with nonstick cooking spray, and sprinkle 2/3&nbsp;of the sugar in the bottom and around the sides of each cup, saving \u2153 to sprinkle on top of the muffins.&nbsp; Divide muffin batter evenly between the cups (about \u00bc cup per muffin), and sprinkle tops with remaining cinnamon sugar. Bake, rotating halfway through, until a toothpick inserted in the center of the largest muffin comes out clean, 17 to 20 minutes.&nbsp;",
+    "video":[
+       
+    ],
+    "recipeCuisine":[
+       
+    ],
+    "recipeCategory":[
+       "baking"
+    ],
+    "recipeYield":"12 servings",
+    "description":"Applesauce\ufeff is the secret to these super tender and moist muffins, which don\u2019t even need a mixer to make! ",
+    "keywords":"baking"
+ }

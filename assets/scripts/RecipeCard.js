@@ -3,6 +3,8 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
+    super();
+    this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -100,6 +102,78 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+
+    // image
+    var image = document.createElement('img'); 
+    var imageSrc = searchForKey(data, 'thumbnailUrl');
+    var imageAlt = searchForKey(data, 'headline');
+    image.setAttribute('src', imageSrc);
+    image.setAttribute('alt', imageAlt);
+    card.append(image);
+
+    // title
+    var title = document.createElement('p'); 
+    title.classList.add('title');
+    var titleUrl = document.createElement('a'); 
+    var titleUrlLink = getUrl(data);  
+    titleUrl.setAttribute('href', titleUrlLink);
+    titleUrl.innerHTML = imageAlt;
+    title.append(titleUrl);
+    card.append(title);
+
+    // organization
+    var organization = document.createElement('p'); 
+    organization.classList.add('organization');
+    var organizationName = getOrganization(data);
+    organization.innerHTML = organizationName;
+    card.append(organization)
+
+    // ratings 
+    var rating = document.createElement('div');
+    rating.classList.add('rating');
+    var ratingVal =  searchForKey(data, 'ratingValue');
+    var stars = document.createElement('span');
+    if(ratingVal != undefined){
+      stars.innerHTML = 'No Reviews';
+      rating.append(stars);
+    }
+    else{
+      stars.innerHTML = ratingVal;
+      rating.append(stars);
+
+      var numStars = document.createElement('image');
+      var ratingRounded = Math.round(ratingVal);
+      var starsImageSrc = 'assets/images/icons/' + ratingRounded + '-star.svg';
+      var starsImageAlt = ratingRounded +' star';
+      numStars.setAttribute('src', starsImageSrc);
+      numStars.setAttribute('alt', starsImageAlt);
+      rating.append(numStars);
+
+      var numRatings = document.createElement('span');
+      var ratingCount = searchForKey(data, 'ratingCount'); 
+      numRatings.innerHTML = '(' + ratingCount + ')';
+      rating.append(numRatings);
+
+    }
+    card.append(rating)
+
+    // time
+    var time = document.createElement('time');
+    var actualTime = searchForKey(data, 'totalTime');
+    time.innerHTML = actualTime;
+    card.append(time);
+
+    // ingredients
+    var ingredients = document.createElement('p');
+    ingredients.classList.add('ingredients');
+    var ingredientsList = searchForKey(data, 'recipeIngredient');
+    ingredients.innerHTML = createIngredientList(ingredientsList);
+    card.append(ingredients);
+
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
+
+    
   }
 }
 
